@@ -4,7 +4,7 @@ import sys
 
 pygame.init()
 
-WIDITH = 800
+WIDTH = 800
 HEIGHT = 600
 
 RED = (255, 0, 0)
@@ -15,16 +15,16 @@ player_size = 50
 player_pos = [WIDTH / 2, HEIGHT - 2 * player_size]
 
 enemy_size = 50
-enemy_pos = [WIDITH, 0]
+enemy_pos = [WIDTH, 0]
 
-screen = pygame.display.set_mode((WIDITH, HEIGHT))
+screen = pygame.display.set_mode((WIDTH, HEIGHT))
 
 game_over = False
 
 while not game_over:
 
     for event in pygame.event.get():
-        if event.type == pygame.OUIT:
+        if event.type == pygame.QUIT:
             sys.exit()
 
         if event.type == pygame.KEYDOWN:
@@ -44,7 +44,7 @@ while not game_over:
     else:
         enemy_pos[1] = 1
 
-    pygame.draw.rect(screen, BLUE, (enwmy_pos[0], enemy_pos[1], enemy_size, enemy_size))
+    pygame.draw.rect(screen, BLUE, (enemy_pos[0], enemy_pos[1], enemy_size, enemy_size))
     pygame.draw.rect(screen, RED, (player_pos[0], player_pos[1], player_size, player_size))
 
     pygame.display.update()
