@@ -38,7 +38,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.snake">
+  <component name="RunManager" selected="Python.tetris">
     <configuration name="epic games" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="games" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -52,27 +52,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/epic games.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="kdfkedj" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="games" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kdfkedj.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -102,27 +81,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pong" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="games" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pong.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="snake" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="games" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -144,13 +102,55 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="tetris" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="games" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tetris.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tic tac toe" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="games" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tic tac toe.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.snake" />
+        <item itemvalue="Python.tetris" />
         <item itemvalue="Python.epic games" />
+        <item itemvalue="Python.tic tac toe" />
+        <item itemvalue="Python.snake" />
         <item itemvalue="Python.minecraft" />
-        <item itemvalue="Python.kdfkedj" />
-        <item itemvalue="Python.pong" />
       </list>
     </recent_temporary>
   </component>
@@ -180,38 +180,38 @@
       <screen x="0" y="0" width="1024" height="728" />
     </state>
     <state x="291" y="118" key="FileChooserDialogImpl/0.0.1024.728@0.0.1024.728" timestamp="1587552506395" />
-    <state width="1025" height="286" key="GridCell.Tab.0.bottom" timestamp="1587730911356">
+    <state width="1025" height="320" key="GridCell.Tab.0.bottom" timestamp="1587779225484">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
-    <state width="1025" height="286" key="GridCell.Tab.0.bottom/0.0.1024.728@0.0.1024.728" timestamp="1587730911356" />
-    <state width="1025" height="286" key="GridCell.Tab.0.center" timestamp="1587730911355">
+    <state width="1025" height="320" key="GridCell.Tab.0.bottom/0.0.1024.728@0.0.1024.728" timestamp="1587779225484" />
+    <state width="1025" height="320" key="GridCell.Tab.0.center" timestamp="1587779225483">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
-    <state width="1025" height="286" key="GridCell.Tab.0.center/0.0.1024.728@0.0.1024.728" timestamp="1587730911355" />
-    <state width="1025" height="286" key="GridCell.Tab.0.left" timestamp="1587730911354">
+    <state width="1025" height="320" key="GridCell.Tab.0.center/0.0.1024.728@0.0.1024.728" timestamp="1587779225483" />
+    <state width="1025" height="320" key="GridCell.Tab.0.left" timestamp="1587779225483">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
-    <state width="1025" height="286" key="GridCell.Tab.0.left/0.0.1024.728@0.0.1024.728" timestamp="1587730911354" />
-    <state width="1025" height="286" key="GridCell.Tab.0.right" timestamp="1587730911355">
+    <state width="1025" height="320" key="GridCell.Tab.0.left/0.0.1024.728@0.0.1024.728" timestamp="1587779225483" />
+    <state width="1025" height="320" key="GridCell.Tab.0.right" timestamp="1587779225484">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
-    <state width="1025" height="286" key="GridCell.Tab.0.right/0.0.1024.728@0.0.1024.728" timestamp="1587730911355" />
-    <state width="1025" height="232" key="GridCell.Tab.1.bottom" timestamp="1587728945028">
+    <state width="1025" height="320" key="GridCell.Tab.0.right/0.0.1024.728@0.0.1024.728" timestamp="1587779225484" />
+    <state width="515" height="232" key="GridCell.Tab.1.bottom" timestamp="1587732937536">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
-    <state width="1025" height="232" key="GridCell.Tab.1.bottom/0.0.1024.728@0.0.1024.728" timestamp="1587728945028" />
-    <state width="1025" height="232" key="GridCell.Tab.1.center" timestamp="1587728945027">
+    <state width="515" height="232" key="GridCell.Tab.1.bottom/0.0.1024.728@0.0.1024.728" timestamp="1587732937536" />
+    <state width="515" height="232" key="GridCell.Tab.1.center" timestamp="1587732937536">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
-    <state width="1025" height="232" key="GridCell.Tab.1.center/0.0.1024.728@0.0.1024.728" timestamp="1587728945027" />
-    <state width="1025" height="232" key="GridCell.Tab.1.left" timestamp="1587728945027">
+    <state width="515" height="232" key="GridCell.Tab.1.center/0.0.1024.728@0.0.1024.728" timestamp="1587732937536" />
+    <state width="515" height="232" key="GridCell.Tab.1.left" timestamp="1587732937536">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
-    <state width="1025" height="232" key="GridCell.Tab.1.left/0.0.1024.728@0.0.1024.728" timestamp="1587728945027" />
-    <state width="1025" height="232" key="GridCell.Tab.1.right" timestamp="1587728945028">
+    <state width="515" height="232" key="GridCell.Tab.1.left/0.0.1024.728@0.0.1024.728" timestamp="1587732937536" />
+    <state width="515" height="232" key="GridCell.Tab.1.right" timestamp="1587732937536">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
-    <state width="1025" height="232" key="GridCell.Tab.1.right/0.0.1024.728@0.0.1024.728" timestamp="1587728945028" />
+    <state width="515" height="232" key="GridCell.Tab.1.right/0.0.1024.728@0.0.1024.728" timestamp="1587732937536" />
     <state x="0" y="0" width="1024" height="708" key="SettingsEditor" timestamp="1587730061394">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
@@ -224,10 +224,14 @@
       <screen x="0" y="0" width="1024" height="728" />
     </state>
     <state x="279" y="280" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1024.728@0.0.1024.728" timestamp="1587620557319" />
-    <state x="175" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1587620719865">
+    <state x="58" y="93" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1587732853944">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
-    <state x="175" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1024.728@0.0.1024.728" timestamp="1587620719865" />
+    <state x="58" y="93" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1024.728@0.0.1024.728" timestamp="1587732853944" />
+    <state x="175" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1587732012943">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state x="175" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1024.728@0.0.1024.728" timestamp="1587732012943" />
     <state x="234" y="275" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1587728474988">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
